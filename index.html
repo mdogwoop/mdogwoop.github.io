@@ -1,16 +1,76 @@
 <!DOCTYPE html>
-<html lang="zh-cn">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>什么鬼站</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>站点建设中 - 博客</title>
+    <style>
+        /* 基础样式重置 */
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f4f7f6;
+            color: #333;
+        }
+
+        /* 容器样式 */
+        .container {
+            text-align: center;
+            padding: 20px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+            max-width: 400px;
+            width: 90%;
+        }
+
+        /* 标题样式 */
+        h1 {
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+
+        /* 文字样式 */
+        p {
+            font-size: 1rem;
+            color: #7f8c8d;
+            line-height: 1.6;
+        }
+
+        /* 简单的 loading 动画 */
+        .loader {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #3498db;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            animation: spin 2s linear infinite;
+            margin: 20px auto;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* 响应式调整 */
+        @media (max-width: 480px) {
+            h1 { font-size: 1.5rem; }
+        }
+    </style>
 </head>
 <body>
-<a href="https://t.me/mdogwoop/">来尬聊(telegram)</a>
-</body>
 
-<body>
-<video width="480" height="270" controls="">
-  <source src="mbg.mp4" type="video/mp4">
-</video>
+    <div class="container">
+        <div class="loader"></div>
+        <h1>博客正在建设中</h1>
+        <p>正在努力打磨内容，敬请期待。<br>感谢您的耐心等待！</p>
+    </div>
+
 </body>
 </html>
