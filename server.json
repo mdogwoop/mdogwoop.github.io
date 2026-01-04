@@ -1,8 +1,0 @@
-{
-    "servers": [
-        {
-            "name": "home-server",
-            "address": "http://192.168.5.187:6969"
-        }
-    ]
-}
